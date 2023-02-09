@@ -24,7 +24,7 @@
     width: 80% !important;
   }
 
-  #title {
+  .title {
     font-size: 3rem !important;
     line-height: 3rem !important;
   }
@@ -37,5 +37,15 @@
 @media (max-width: 500px) {
   .card {
     width: 90% !important;
+    padding: 1rem 0;
+  }
+
+  .title {
+    font-size: 2rem !important;
+    line-height: 2rem !important;
+  }
+
+  .text {
+    font-size: 1rem !important;
   }
 }
