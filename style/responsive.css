@@ -1,0 +1,41 @@
+@media (max-width: 1000px) {
+  #description-section {
+    flex-direction: column;
+  }
+  #description-section img {
+    width: 80% !important;
+  }
+
+  .image-bg {
+    display: none;
+  }
+
+  .card {
+    justify-content: center !important;
+  }
+
+  .card div {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .card {
+    width: 80% !important;
+  }
+
+  #title {
+    font-size: 3rem !important;
+    line-height: 3rem !important;
+  }
+
+  .card div {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 90% !important;
+  }
+}
