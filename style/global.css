@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap");
+
+:root {
+  --primary-color: #fcaf01;
+  --bg-color: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: "Montserrat", Sans-serif;
+  background: var(--bg-color);
+  color: #fff;
+  line-height: 2rem;
+}
+
+header {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.center-item {
+  align-items: center;
+}
+
+.important {
+  color: var(--primary-color);
+}
+
+button {
+  border: none;
+  padding: 1rem;
+  font-size: 1.3rem;
+  border-radius: 0.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.iwant {
+  background: var(--primary-color);
+  color: #000000;
+}
+
+.iwant:hover {
+  background: #b68000;
+}
+
+.card {
+  background: #181818;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 70%;
+  height: 20rem;
+}
+
+#exclusive {
+  background: url(../images/exclusive.png);
+}
+
+#linkedin {
+  background: url(../images/linkedin.png);
+}
+
+#interview {
+  background: url(../images/interview.png);
+}
+
+#bureaucracy {
+  background: url(../images/bureaucracy.png);
+}
+
+#portfolio {
+  background: url(../images/portfolio.png);
+}
+
+#code-review {
+  background: url(../images/code-review.png);
+}
+
+.image-bg {
+  background-repeat: no-repeat !important;
+  width: 50%;
+}
